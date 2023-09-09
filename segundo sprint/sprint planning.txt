@@ -1,0 +1,1 @@
+En este segundo sprint se buscará generar la función para la facturación, la función para contabilizar la ganancia diaria y la función para contabilizar las unidades vendidas de cada producto. 
