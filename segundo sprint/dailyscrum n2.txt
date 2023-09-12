@@ -1,11 +1,11 @@
-¿que hiciste ayer?
+¿qué hiciste ayer? 
 
-trabajamos en la funcion del facturador teniendo en cuenta una buena experiencia usuario
+trabajamos en la función del facturador teniendo en cuenta una buena experiencia usuario 
 
-¿que vas a hacer hoy?
+¿qué vas a hacer hoy? 
 
-hoy trabajaremos en los contadores y los acumuladores para la funcion de conteo de productos vendidos y ganancia total del dia
+hoy trabajaremos en los contadores y los acumuladores para la función de conteo de productos vendidos y ganancia total del día 
 
-¿necesitas ayuda para abrir algo?
+¿necesitas ayuda para abrir algo? 
 
-tengo que idear la forma de que la interfaz sea intuitiva
+tengo que idear la forma de que la interfaz sea intuitiva  

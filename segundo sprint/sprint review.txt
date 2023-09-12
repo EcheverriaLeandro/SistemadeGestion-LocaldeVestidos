@@ -1,0 +1,1 @@
+En este segundo sprint se logró desarrollar el facturador, la acumulación de la ganancia total, la cuenta de unidades vendidas y se tuvo en cuenta el entorno grafico para que sea amigable con el usuario.  

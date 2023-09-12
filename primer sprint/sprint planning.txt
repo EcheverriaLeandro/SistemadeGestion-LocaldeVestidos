@@ -1,1 +1,1 @@
-durante el primer sprint se generará la lista de precios, información necesaria para trabajar las otras funciones y la creación del logo del proyecto 
+durante el primer sprint se generará la lista de precios, información necesaria para trabajar las otras funciones y la creación del logo del proyecto. 

@@ -1,12 +1,11 @@
-¿que hiciste ayer?
+¿qué hiciste ayer? 
 
-se precento el product backlog para el segundo sprint
+se presentó el producto backlog para el segundo sprint 
 
-¿que vas a hacer hoy?
+¿qué vas a hacer hoy? 
 
-comenzare a desarrollar el facturador
+comenzare a desarrollar el facturador 
 
-¿necesitas ayuda para hacer algo?
-
-no, todo biene bien
-
+¿necesitas ayuda para hacer algo? 
+  
+no, todo viene bien

@@ -1,11 +1,11 @@
-¿que hiciste ayer?
+¿qué hiciste ayer? 
 
-ayer se genero la lista de precios segun los precios dados por el cliente
+ayer se generó la lista de precios según los precios dados por el cliente 
 
-¿que vas a hacer hoy?
+¿qué vas a hacer hoy? 
 
-hoy vamos a trabajar en la linea de codigo donde se muestra la lista de precios si el usuario la solicita
+hoy vamos a trabajar en la línea de código donde se muestra la lista de precios si el usuario la solicita 
 
-¿necesitas ayuda para abrir algo?
+¿necesitas ayuda para abrir algo? 
 
-no por el momento todo marcha sobre ruedas
+no por el momento, todo marcha sobre ruedas

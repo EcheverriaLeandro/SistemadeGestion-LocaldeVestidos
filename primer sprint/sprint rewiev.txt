@@ -1,1 +1,1 @@
-En este primer sprint se termino el logo, la lista de precios y la muestra de la lista de precios si fuese consultada.
+En este primer sprint se terminó el logo, la lista de precios y la muestra de la lista de precios si fuese consultada. 

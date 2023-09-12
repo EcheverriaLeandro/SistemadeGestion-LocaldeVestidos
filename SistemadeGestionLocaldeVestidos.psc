@@ -22,7 +22,7 @@ Algoritmo SistemadeGestionLocaldeVestidos
 	CantidadFaldadeBrillo<-0		//
 	CantidadTutu<-0				//
 	
-	LLavedeRepetir<-Falso		// inicializacion de valor logico en falso para el correcto funcionamiento del repetir
+	LLavedeRepetir<-Falso		// inicializacion de valor lógico en falso para el correcto funcionamiento del repetir
 	
 	Repetir
 		Escribir "   _____________________________________________________________________________________________"		//
@@ -37,10 +37,10 @@ Algoritmo SistemadeGestionLocaldeVestidos
 	
 		Repetir															//
 			si ElecciondeMenu < 1 y ElecciondeMenu > 2 Entonces			//
-				Escribir "La opcion elegida no coincide con las dadas"		//
+				Escribir "La opción elegida no coincide con las dadas"		//
 				Escribir "ingrese 1 si quiere ver la lista de precios"		//
 				Escribir "ingrese 2 si quiere ver la lista de precios"		//
-				leer PrimeraEleccion 										//  consulta logica para evitar errores humanos
+				leer PrimeraEleccion 										//  consulta lógica para evitar errores humanos
 				Limpiar Pantalla											//
 			SiNo															//
 				LLavedeRepetir<-Verdadero									//
@@ -55,19 +55,19 @@ Algoritmo SistemadeGestionLocaldeVestidos
 			Escribir "Falda: " Falda										//
 			Escribir "Falda de Brillo: " FaldadeBrillo						//
 			Escribir "Tutu: " Tutu											//
-			Escribir "Precione Enter para volver al menu principal"		//
+			Escribir "Presione Enter para volver al menú principal"		//
 			Esperar Tecla
 			Limpiar Pantalla
 		FinSi
-	Hasta Que ElecciondeMenu = 2 											// se itiliza este bucle para ahorrar linea de codigo y volver al menu principal
+	Hasta Que ElecciondeMenu = 2 											// se utiliza este bucle para ahorrar linea de código y volver al menú principal
 	
 	Repetir
 		ValordeVenta<-0																										//se necesita reiniciar el acumulador para cada venta
 	
 		Escribir "   _____________________________________________________________________________________________"		//
 		Escribir "  |                                Bienvenido al facturador                                     |"		//
-		Escribir "  |                           porfavor elija de a uno los item                                  |"		// Mensaje al usuario
-		Escribir "  |            ingrese el numero y luego precione Enter para agregarlo a la compra              |"		//
+		Escribir "  |                           por favor elija de a uno los ítem                                 |"		// Mensaje al usuario
+		Escribir "  |            ingrese el numero y luego presione Enter para agregarlo a la compra              |"		//
 		Escribir "  |                                                                                             |"		//
 		Escribir "  |                                                                                             |"		//
 		Escribir "   ---------------------------------------------------------------------------------------------"		//
@@ -84,41 +84,41 @@ Algoritmo SistemadeGestionLocaldeVestidos
 		Repetir
 			Leer EleccionFacturador
 			Mientras EleccionFacturador<0 o EleccionFacturador>6 Hacer		//
-					Escribir "La opcion elegida no coincide con las dadas"		//
-					Escribir "elija una de las opciones dadas"					//
-					leer EleccionFacturador										//  consulta logica para evitar errores humanos
+					Escribir "La opción elegida no coincide con las dadas"		//
+					Escribir "elija una de las opciones dadas"					// consulta lógica para evitar errores humanos
+					leer EleccionFacturador										//  
 			Fin Mientras														//
 			
 			Segun EleccionFacturador Hacer																			//
 				1:																									//
 					Escribir "Se agrego: Top"																		//
 					ValordeVenta<-ValordeVenta+top																	//
-					Escribir "Ingrese otro item para segur con la venta o precione 0 para terminar la venta"		//
+					Escribir "Ingrese otro ítem para seguir con la venta o presione 0 para terminar la venta"		//
 					CantidadTop<-CantidadTop+1		//contador de unidades vendidas de top
 				2:																									//
 					Escribir "Se agrego: Corset"																	//
 					ValordeVenta<-ValordeVenta+Corset																//
-					Escribir "Ingrese otro item para segur con la venta o precione 0 para terminar la venta"		//
+					Escribir "Ingrese otro ítem para seguir con la venta o presione 0 para terminar la venta"		//
 					CantidadCorset<-CantidadCorset+1		//contador de unidades vendidas de Corset
 				3:																									//
 					Escribir "Se agrego: Bustier"																	//
 					ValordeVenta<-ValordeVenta+Bustier																//
-					Escribir "Ingrese otro item para segur con la venta o precione 0 para terminar la venta"		//
+					Escribir "Ingrese otro ítem para seguir con la venta o presione 0 para terminar la venta"		//
 					CantidadBustier<-CantidadBustier+1		//contador de unidades vendidas de Bustier
 				4:																									// estructura del facturador
 					Escribir "Se agrego: Falda"																	//
 					ValordeVenta<-ValordeVenta+Falda																	//
-					Escribir "Ingrese otro item para segur con la venta o precione 0 para terminar la venta"		//
+					Escribir "Ingrese otro ítem para seguir con la venta o presione 0 para terminar la venta"		//
 					CantidadFalda<-cantidadFalda+1		//contador de unidades vendidas de falda
 				5:																									//
 					Escribir "Se agrego: Falda de brillo"															//
 					ValordeVenta<-ValordeVenta+FaldadeBrillo															//
-					Escribir "Ingrese otro item para segur con la venta o precione 0 para terminar la venta"		//
+					Escribir "Ingrese otro ítem para seguir con la venta o presione 0 para terminar la venta"		//
 					CantidadFaldadeBrillo<-CantidadFaldadeBrillo+1		//contador de unidades vendidas de falda de brillo
 				6:																									//
 					Escribir "Se agrego: Tutu"																		//
 					ValordeVenta<-ValordeVenta+Tutu																	//
-					Escribir "Ingrese otro item para segur con la venta o precione 0 para terminar la venta"		//
+					Escribir "Ingrese otro ítem para seguir con la venta o presione 0 para terminar la venta"		//
 					CantidadTutu<-CantidadTutu+1		//cantador de undidades vendidas de tutu
 			Fin Segun																								//
 		Hasta Que EleccionFacturador = 0 																			//
@@ -144,7 +144,7 @@ Algoritmo SistemadeGestionLocaldeVestidos
 	Escribir "                                                                                                "		//
 	Escribir "   _____________________________________________________________________________________________"		//
 	Escribir "                                                                                               "		//
-	Escribir "                            las ganacias totales del dia fueron ",GananciasTotales            		// muestra de ganancia total
+	Escribir "                             las ganancias totales del día fueron ",GananciasTotales            		// muestra de ganancia total
 	Escribir "                                                                                               "		//
 	Escribir "   ---------------------------------------------------------------------------------------------"		//
 	Escribir "                                                                                                "		//
@@ -163,9 +163,9 @@ Algoritmo SistemadeGestionLocaldeVestidos
 	Escribir "                                                                                                "		//
 	Escribir "   _____________________________________________________________________________________________"		//
 	Escribir "  |                                                                                             |"		//
-	Escribir "  |                          ¡que tenga buen dia! :D nos vemos mañana                           |"		// mensaje final
+	Escribir "  |                          ¡que tenga buen día! :D nos vemos mañana                           |"		// mensaje final
 	Escribir "  |                                                                                             |"		//
-	Escribir "  |                           preciona enter para cerrar el programa                            |"		//
+	Escribir "  |                           presiona enter para cerrar el programa                            |"		//
 	Escribir "   ---------------------------------------------------------------------------------------------"		//
 	Escribir "                                                                                                "		//
 	
